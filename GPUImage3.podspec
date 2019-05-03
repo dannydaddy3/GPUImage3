@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
   s.source   = { :git => 'https://github.com/dannydaddy3/GPUImage3' }
 
-  s.source_files = 'framework/Source/**/*.{swift}'
+  s.source_files = 'framework/Source/**/*.{h,m,swift}'
   s.resources = 'framework/Source/Operations/Shaders/*.{fsh}'
   s.requires_arc = true
   s.xcconfig = { 'CLANG_MODULES_AUTOLINK' => 'YES', 'OTHER_SWIFT_FLAGS' => "$(inherited) -DGLES"}
