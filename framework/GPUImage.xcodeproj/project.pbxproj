@@ -959,11 +959,11 @@
 				TargetAttributes = {
 					BCE0BE7B20D6DE610006E120 = {
 						CreatedOnToolsVersion = 9.3;
-						LastSwiftMigration = 0930;
+						LastSwiftMigration = 1010;
 					};
 					BCE0BE8B20D6E2B80006E120 = {
 						CreatedOnToolsVersion = 9.3;
-						LastSwiftMigration = 0930;
+						LastSwiftMigration = "";
 					};
 				};
 			};
@@ -1519,7 +1519,7 @@
 				PRODUCT_NAME = GPUImage;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1544,7 +1544,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.redqueencoder.GPUImage;
 				PRODUCT_NAME = GPUImage;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1574,7 +1574,7 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -1602,7 +1602,7 @@
 				PRODUCT_NAME = GPUImage;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

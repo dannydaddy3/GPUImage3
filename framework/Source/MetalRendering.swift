@@ -66,9 +66,11 @@ func generateRenderPipelineState(device:MetalRenderingDevice, vertexFunctionName
         if let fragmentArguments = reflection?.fragmentArguments {
             for fragmentArgument in fragmentArguments where fragmentArgument.type == .buffer {
                 if (fragmentArgument.bufferDataType == .struct) {
-                    for (index, uniform) in fragmentArgument.bufferStructType.members.enumerated() {
-                        uniformLookupTable[uniform.name] = (index, uniform.dataType)
+                  if let structType = fragmentArgument.bufferStructType {
+                    for (index, uniform) in structType.members.enumerated() {
+                      uniformLookupTable[uniform.name] = (index, uniform.dataType)
                     }
+                  }
                 }
             }
         }
